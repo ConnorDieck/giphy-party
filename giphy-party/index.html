@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Giphy Party</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-dark">
+
+    <div class="container">
+        <h1 class="text-center text-light">GIPHY PARTY</h1>
+        <form id="gif-form" class="form-inline d-flex justify-content-center">
+            <input type="text" id="search" placeholder="jokes" class="form-control mr-4">
+            <input type="submit" class="btn btn-secondary" value="Search Giphy!">
+            <button id="remove" class="btn btn-danger ml-4">Remove Images</button>
+        </form>
+    </div>
+   
+    <div id="gifs" class="container"></div>
+
+    <script src="https://unpkg.com/jquery"></script> 
+    <script src="https://unpkg.com/popper"></script> 
+    <script src="https://unpkg.com/bootstrap"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
