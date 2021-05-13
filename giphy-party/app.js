@@ -30,7 +30,7 @@ $GIFform.on('submit', function(e) {
 	const $searchTerm = $('#search');
 	// console.log($searchTerm.val());
 	getGIF($searchTerm.val());
-	$searchTerm.value = '';
+	$searchTerm.val('');
 });
 
 // Remove button removes GIFs
